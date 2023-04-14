@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="./jquery/jquery-ui.min.css">
+    <link rel="stylesheet" href="./jquery/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="./jquery/jquery-ui.theme.min.css">
+    <script src="./jquery/external/jquery/jquery.js"></script>
+    <script src="./jquery/jquery-ui.min.js"></script>
+    <script src="./scripts/signUp.js"></script>
+    <title>Sign Up</title>
 </head>
 <body>
-    
+
+    <form class="mainForm">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname"><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname"><br>
+        <label for="mname">Middle Name:</label>
+        <input type="text" name="mname" id="mname"><br><br>
+
+        <label for="maleRadio">Male</label>
+        <input type="radio" name="radioGender" id="maleRadio" value="Male"><br>
+        <label for="femaleRadio">Female</label>
+        <input type="radio" name="radioGender" id="femaleRadio" value="Female"><br><br>
+
+        <label for="datepick">Date of Birth</label>
+        <input type="text" name="datepick" id="datepick"><br><br>
+
+        <label for="provinces">Provinces</label>
+        <input type="text" name="provinces" id="provinces"><br><br>
+
+        <label for="yearlvl">Year Level</label>
+        <input id="yearlvl" name="yearlvl"><br><br>
+
+        <input type="button" id="submit" name="submit" value="Submit">
+
+    </form>
+
 </body>
 </html>
