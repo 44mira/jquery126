@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head lang="en">
+    <title>Academic Units</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+    <link rel="stylesheet" href="lab8_style.css">  
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+ </head>
+ <div class="menu">
+    <button class="menubtn">Menu</button>
+    <div class="dropdown-menu">
+      <a href="home.html">Home</a>
+      <a href="signUp.html">Sign Up</a>
+      <a href="acadUnits.html">Academic Units</a>
+      <a href="acadProg.html">Academic Programs</a>
+    </div>
+  </div>
+  <br>
+  <div class = "acadunits-menu">
+    <form>
+        <div class="acadunits-menu">
+            <form>
+              <label for="acadmen" id="acadmen-label">Choose an Academic Unit:</label><br>
+              <select name="acadmen" id="acadmen">
+                <option value="null">Select College</option>
+                <option id="chss" value="chss">College of Humanities and Social Sciences</option>
+                <option id="csm" value="csm">College of Science and Mathematics</option>
+                <option id="som" value="som">School of Management</option>
+              </select>
+            </form>
+          </div>
+          
+      <button id = "selectbtn">Select</button>
+    </form>
+  </div>
+    <script src = "acadUnits.js">
+    </script>
+ </body>
