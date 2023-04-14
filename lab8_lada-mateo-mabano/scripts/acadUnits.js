@@ -1,18 +1,9 @@
 $(document).ready(function() {
-    $('#acadmen').selectmenu({
-      change: function(event, ui) {
-        var college = ui.item.value;
-        if (college == '') {
-          $('#unit-info').html('');
-        } else {
-          $.ajax({
-            url: college + '.html',
-            success: function(data) {
-              $('#unit-info').html(data);
-            }
-          });
-        }
-      }
-    });
+  $('#acadmen').selectmenu({
+    select : (e , ui) => {
+      let redirect = "./redirects/" + ui.item.value + ".html";
+      window.location.href = redirect;
+    }  
   });
+});
   
