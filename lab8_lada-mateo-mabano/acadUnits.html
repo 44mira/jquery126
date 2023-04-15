@@ -1,46 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <head lang="en">
-    <title>Academic Units</title>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./jquery/jquery-ui.min.css">
     <link rel="stylesheet" href="./jquery/jquery-ui.structure.min.css">
     <link rel="stylesheet" href="./jquery/jquery-ui.theme.min.css">
     <script src="./jquery/external/jquery/jquery.js"></script>
     <script src="./jquery/jquery-ui.min.js"></script>
+    <script src="./scripts/acadUnits.js"></script>
     <title>Academic Units</title>
 </head>
 <body>
- <div class="menu">
-    <button class="menubtn">Menu</button>
-    <div class="dropdown-menu">
-      <a href="home.html">Home</a>
-      <a href="signUp.html">Sign Up</a>
-      <a href="acadUnits.html">Academic Units</a>
-      <a href="acadProg.html">Academic Programs</a>
-    </div>
-  </div>
-  <br>
-  <div class = "acadunits-menu">
-    <form>
+    <div class="menu">
+        <button class="menubtn">Menu</button>
+        <div class="dropdown-menu">
+            <a href="home.html">Home</a>
+            <a href="signUp.html">Sign Up</a>
+            <a href="acadUnits.html">Academic Units</a>
+            <a href="acadProg.html">Academic Programs</a>
+        </div>
+    </div><br>
+    <div class = "acadunits-menu">
         <div class="acadunits-menu">
             <form>
-              <label for="acadmen" id="acadmen-label">Choose an Academic Unit:</label><br>
-              <select name="acadmen" id="acadmen">
+                <label for="acadmen" id="acadmen-label">Choose an Academic Unit:</label><br>
+                <select name="acadmen" id="acadmen">
                 <option value="null">Select College</option>
                 <option id="chss" value="chss">College of Humanities and Social Sciences</option>
                 <option id="csm" value="csm">College of Science and Mathematics</option>
                 <option id="som" value="som">School of Management</option>
-              </select>
+                </select>
             </form>
-          </div>
-          
-      <button id = "selectbtn">Select</button>
-    </form>
-  </div>
-    <script src = "acadUnits.js">
-    </script>
- </body>
+        </div>
+        <button id="selectbtn">Select</button>
+    </div>
+</body>
 </html>
 
