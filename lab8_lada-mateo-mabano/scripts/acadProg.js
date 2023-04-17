@@ -1,5 +1,6 @@
 $(document).ready(() => {
     $("#acadPrograms").accordion({
-        collapsible : true
+        collapsible : 'true',
+        heightStyle: 'content'
     })
 });
