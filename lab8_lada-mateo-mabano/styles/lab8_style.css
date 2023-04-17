@@ -1,34 +1,155 @@
+.body{
+  font-family: 'Nunito';
+}
 .menubtn {
+  background-color: #d20f0f;
+  color: white;
+  padding: 5px;
+  border-radius : 5px ;
+  font-size: 16px;
+  border: none;
+  font-family: 'Nunito';
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: 'Nunito';
+}
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {background-color: #ddd;}
+
+.menu:hover .dropdown-menu {display: block;}
+
+.menu:hover .menubtn {background-color: maroon;}
+
+.acadunits-menu{
+    font-family: 'Nunito';
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    border: solid 1.8px #d20f0f;
+    border-radius: 5px;
+  }
+.content {
+    font-family: 'Nunito';
+    margin: 1rem;
+    padding: 2rem 2rem;
+    align-items: center;
+  }
+ #unit-info {
+    display: inline-block;
+    width: 40%;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    align-items: center;
+    font-family: 'Nunito';
+    align-content: center;
+  }
+  #blurb{
+    font-size: 30px;
+    font-family: 'Nunito';
+  }
+  .form{
+    font-family: 'Nunito';
+    margin: auto;
+    width: 30%;
+    padding-left: 60px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    align-items: center;
+    align-content: center;
+    border: solid 1.8px #d20f0f;
+    border-radius: 5px;
+    color: #004276
+  }
+ .mainForm{
+    align-items: center;
+    align-content: center;
+ }
+ .input{
+    background-color: rgb(231, 230, 230);
+    padding: 3px;
+    border-bottom: solid 2px#d20f0f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+  }
+  #submit{
     background-color: #d20f0f;
     color: white;
     padding: 5px;
     border-radius : 5px ;
     font-size: 16px;
     border: none;
+    width: 60%;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    font-family: 'Nunito';
+    font-weight: bold;
   }
-  
-  .menu {
-    position: relative;
-    display: inline-block;
+.form:hover #submit {background-color: rgb(231, 230, 230); color:#004276}
+  label{
+    font-weight:bold;
+    font-family: 'Nunito';
+    color:#004276
   }
-  
-  .dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  .form h2{
+    font-family: 'Nunito';
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    color: #004276
   }
-  .dropdown-menu a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  #selectbtn{
+    background-color: #d20f0f;
+    color: white;
+    padding: 5px;
+    border-radius : 5px ;
+    font-size: 16px;
+    border: none;
+    width: 100px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    font-family: 'Nunito';
+    font-weight: bold;
   }
-  
-  .dropdown-menu a:hover {background-color: #ddd;}
-  
-  .menu:hover .dropdown-menu {display: block;}
-  
-  .menu:hover .menubtn {background-color: maroon;}
+.acadunits-menu:hover #selectbtn {background-color: rgb(231, 230, 230); color:#004276}
+li{
+  list-style: none;
+}
+h1{
+  font-family: 'Nunito';
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    color: #004276
+}
+.acadunits-menu p{
+  font-size: larger;
+  font-weight: bolder;
+}
+#acadPrograms{
+  font-family: 'Nunito';
+}
