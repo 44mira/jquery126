@@ -108,7 +108,7 @@
     font-family: 'Nunito';
     font-weight: bold;
   }
-.form:hover #submit {background-color: rgb(231, 230, 230); color:#004276}
+#submit:hover {background-color: rgb(231, 230, 230); color:#004276}
   label{
     font-weight:bold;
     font-family: 'Nunito';
